@@ -1,3 +1,68 @@
+<h1>Chiwi Academy</h1>
+<h2>Objetivo del proyecto</h2>
+<p>Diseñar y desarrollar una aplicacion para la gestión de eventos o meetups on-line.</br>
+<h3>Desarrollado por:</h3>
+<ul>
+<li>Sara Salas Pérez</li>
+<li>Yuri Andrea Ramírez Reyes</li>
+<li>Juan David Quimbayo Núñez</li>    
+<li>Leandro Gutiérrez Escarpeta</li>
+<li>José Fernando Jiménez Ramírez</li>    
+</ul> 
+<br/>
+<h2>Como funciona:</h2>
+<h4>Inicio/Registro</h4>
+foto
+<h4>Crear Un Evento Nuevo</h4>
+foto
+<h4>Inscribirse a un evento</h4>
+foto
+<h4>Principales eventos</h4>
+foto
+<br/>
+
+<h2>Desarrollo</h2>
+
+<p>La ejecución del proyecto se planteó mediante un Product Backlog elaborado en Trello https://trello.com/b/oSSIebFJ/agile-sprint-board</p>
+<br/>
+<img src= "https://user-images.githubusercontent.com/97111500/164915089-6d0fc1f1-8156-4583-b906-45cf65036b33.png" width="300px" heigth="150px">
+<br/>
+<p>Los Mockup's fueron elaborados en Figma, para consultarlos por favor dirijase a <h1>https:XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</h1></P>
+<br/>
+<img src="https://user-images.githubusercontent.com/97111500/164915595-6db007a9-4e5e-4b95-a28e-a1c974a799cf.jpg" width="300px" heigth="150px"> 
+<br/>
+
+<h3>Para la instalacion local de esta app se dede contar con:</h3><br/>
+<ul>
+<li>Php, descargar desde: https://www.php.net/downloads.php</li>
+<li>MySQL, descargar desde: https://dev.mysql.com/downloads/mysql/</li>
+<li>Laravel, descargar desde: https://laravel.com/docs/9.x/installation</li>
+<li>Composer, descargar desde: https://getcomposer.org/download</li>
+<li>Tailwind, instalar con: npm install -D tailwindcss postcss autoprefixer </li>
+<li>daisy UI, instalar con: npm install daisyui</li>    
+</ul> 
+
+<h3>Luego de clonar el repositorio no olvide ejecutar:</h3><br/>
+<ul>
+<li>composer install</li>
+<li>npm install</li>
+<li>npm run dev</li>
+<li>cp .env.example .env</li>
+<li>php artisan key:generate</li>
+<li>php artisan migrate</li>    
+</ul> 
+<br/>
+<p>En la investigacion, las principales consultas se efectuaron en:</br>
+<ul>
+<li>https://youtu.be/MFh0Fd7BsjE</li>
+<li>https://github.com/codecourse/posty-traversy-media</li>
+<li>developer.mozilla.org</li>
+<li>stackoverflow.com</li>
+</ul> 
+</p>
+<br/>
+<h3>Le sugerimos consultar la documentacion disponible sobre laravel:</h3><br/>
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
