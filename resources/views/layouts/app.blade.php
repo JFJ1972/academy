@@ -9,7 +9,12 @@
 
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
         <link rel="shortcut icon" href="https://dsm01pap001files.storage.live.com/y4mj85YpWafDH5t1GfEXsRXEba-46rruBhQPZP8U28Gl8IsdH998WoRRH7CM-LbutvJmo_LNwPKkcD6jqyqXQMIuovQgTU7-IKxopv7c29CtAermokA6GRciA6Y4QrIcD7ZL7uF2EXFbR56Gu0TMIrSzYbEdQMNysUji5ToSYCz6NrHKMz9sSj9ST1sg5KFWr4n?width=308&height=256&cropmode=none">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://cdn.jsdelivr.net/npm/daisyui@2.6.0/dist/full.css" rel="stylesheet" type="text/css"/>
         <script src="https://cdn.tailwindcss.com"></script>
+
+        <link href="https://cdn.jsdelivr.net/npm/daisyui@2.6.0/dist/full.css" rel="stylesheet" type="text/css"/>
+
     </head>
     <body class="h-screen bg-gray-300">
 
@@ -39,38 +44,34 @@
                     </li>
 
                     <li>
-                        <a href="" class="p-3">crear usuario nuevo</a>
-                    </li>
-
-                    <li>
                         <form action="{{ route('logout') }}" method="post" class="p-3 inline">
                             @csrf
-                            <button type="submit">Logout</button>
+                            <button class="bg-teal-600 text-white font-semibold px-3 py-1 rounded-md hover:bg-teal-500" type="submit">Logout</button>
                         </form>
                     </li>
                 @endauth
 
                 @guest
                     <li>
-                        <a href="{{ route('login') }}" class="bg-blue-600 text-white font-semibold px-3 py-1 rounded-md mr-5">Login</a>
+                        <a href="{{ route('login') }}" class="bg-blue-600 text-white font-semibold px-3 py-1 rounded-md mr-5 hover:bg-blue-500">Login</a>
                     </li>
                     <li>
-                        <a href="{{ route('register') }}" class="bg-teal-600 text-white font-semibold px-3 py-1 rounded-md">Register</a>
+                        <a href="{{ route('register') }}" class="bg-teal-600 text-white font-semibold px-3 py-1 rounded-md hover:bg-teal-500">Register</a>
                     </li>
                 @endguest
             </ul>
         </nav>
         @yield('content')
         <div class="space w-max">
-        <footer class="footer fixed bottom-0 w-full mt-5 md:mt-0 bg-slate-600 p-3 text-white flex flex-wrap items-center justify-center gap-5">
+        <footer class="footer fixed bottom-0 right-0 w-full mt-5 md:mt-0 bg-slate-600 p-3 text-white flex flex-wrap items-center justify-center gap-5">
         <div class="flex items-center gap-5">
             <img class="w-16 bg-white p-1 rounded-lg" src="https://dsm01pap001files.storage.live.com/y4m4B-7iuyyEBb4izqOcWpbNVmgsBGYYpZiIx46pZ5hKwshsefzBtlynXLez0lBy6BzMrNWGKpCsaSKq8Eezsa-mqIeGUTGVqzd4zgf_QJkDyctZqNUUm9CfDwk7GrFyrAactXk2JqdHBKz0t7n13zhCgOUPfE0Yjzvt1scFmPj5uKZ9k38hkMMQhpsyB9jt3Gn?width=148&height=70&cropmode=none" alt="">
             <p class="font-bold text-center">Copyright © 2022 - All right reserved</p>
-        </div> 
+        </div>
         <div class="flex items-center gap-4">
             <a href="https://github.com/sarisp3260/Academy-Chiwi.git">
                 <img class="w-8" src="https://dsm01pap001files.storage.live.com/y4mXCPNFHraIk4-gOxppJ_fL9lgnv0Mru2ocxbFSgbAhXyGUXSEua91VoHOobJj-E_VJhrlrU-rtcHjZns0Ln6WelOKlL1yRqGxdgqrJCmR0lyXSt50MtWXzZ3hL0ShrCPlQ27ERXWJLCvR6m-C-wvwu4pHNlN5IjtKP25f0XE_x2AlCeELL0pWAwxEYsWYIVzc?width=64&height=64&cropmode=none" alt="">
-            </a> 
+            </a>
             <a href="https://educamas.com.co/">
                 <img class="w-8" src="https://dsm01pap001files.storage.live.com/y4mOD_6FqFjS8lxeeEVdL-szQWVEWwNK0Ap47j_uG5nYO4syTk8oFhbjj5hOyPS3ePDlUXYtoDsK4j3EMUm4Rya15SKY2vhuDx6fkuKrWoim_9Yr2gztEDdsXb2o6-dg6QmgoiFVVPe7JJoOhB0xhMZZDd9YJP_T6jll711-HhzcoRq9cSlHZTeV-bsQgUqki6K?width=551&height=610&cropmode=none" alt="">
             </a>
