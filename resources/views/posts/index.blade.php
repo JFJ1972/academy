@@ -1,37 +1,24 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="flex justify-center">
-        <div class="w-8/12 bg-white p-6 rounded-lg">
-            @auth
-                <form action="{{ route('posts') }}" method="post" class="mb-4">
-                    @csrf
-                    <div class="mb-4">
-                        <label for="body" class="sr-only">Body</label>
-                        <textarea name="body" id="body" cols="30" rows="4" class="bg-gray-100 border-2 w-full p-4 rounded-lg @error('body') border-red-500 @enderror" placeholder="Post something!"></textarea>
+    <div class="bg-gray-300">
+        <div class=" mx-4 my-10 pb-10 md:m-10">
 
-                        @error('body')
-                            <div class="text-red-500 mt-2 text-sm">
-                                {{ $message }}
-                            </div>
-                        @enderror
-                    </div>
+            <a class="bg-blue-600 px-3 py-1 text-white rounded-lg" href="{{ route('posts.create') }}">Create new post</a>
 
-                    <div>
-                        <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded font-medium">Post</button>
-                    </div>
-                </form>
-            @endauth
-
-            @if ($posts->count())
-                @foreach ($posts as $post)
-                    <x-post :post="$post" />
-                @endforeach
-
-                {{ $posts->links() }}
-            @else
-                <p>There are no posts</p>
-            @endif
+            <div class="w-full h-fit pb-32  mt-5 sm:pb-12">
+                <div class="grid grid-cols-1 grid-rows-auto place-items-center sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4">
+    
+                @if ($posts->count())
+                    @foreach ($posts as $post)
+                        <x-post :post="$post" />
+                    @endforeach
+    
+                    {{ $posts->links() }}
+                @else
+                    <p>There are no posts</p>
+                @endif
+            </div>
         </div>
     </div>
 @endsection

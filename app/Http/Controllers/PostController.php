@@ -28,15 +28,41 @@ class PostController extends Controller
         ]);
     }
 
+    public function create(){
+        return view('posts.create');
+    }
+
     public function store(Request $request)
     {
         $this->validate($request, [
-            'body' => 'required'
+            'title' => 'required',
+            'type' => 'required',
+            'link' => 'required',
+            'participants' => 'required',
+            'body' => 'required',
+            'image' => 'required',
+            'favorite'
         ]);
 
-        $request->user()->posts()->create($request->only('body'));
+        $request->user()->posts()->create($request->all());
 
-        return back();
+        return redirect()->route('posts');
+    }
+
+    public function edit(Post $post){
+        return view('posts.update' , compact('post'));
+    }
+    public function update(Request $request,Post $post){
+
+        $post->title = $request->title;
+        $post->type = $request->type;
+        $post->link = $request->link;
+        $post->participants = $request->participants;
+        $post->body = $request->body;
+        $post->image = $request->image;
+
+        $post->save() ;
+        return redirect()->route('posts');
     }
 
     public function destroy(Post $post)
