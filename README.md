@@ -1,67 +1,4 @@
-<h1>Chiwi Academy</h1>
-<h2>Objetivo del proyecto</h2>
-<p>Diseñar y desarrollar una aplicacion para la gestión de eventos o meetups on-line.</br>
-<h3>Desarrollado por:</h3>
-<ul>
-<li>Sara Salas Pérez</li>
-<li>Yuri Andrea Ramírez Reyes</li>
-<li>Juan David Quimbayo Núñez</li>    
-<li>Leandro Gutiérrez Escarpeta</li>
-<li>José Fernando Jiménez Ramírez</li>    
-</ul> 
-<br/>
-<h2>Como funciona:</h2>
-<h4>Inicio/Registro</h4>
-foto
-<h4>Crear Un Evento Nuevo</h4>
-foto
-<h4>Inscribirse a un evento</h4>
-foto
-<h4>Principales eventos</h4>
-foto
-<br/>
 
-<h2>Desarrollo</h2>
-
-<p>La ejecución del proyecto se planteó mediante un Product Backlog elaborado en Trello https://trello.com/b/oSSIebFJ/agile-sprint-board</p>
-<br/>
-<img src= "https://user-images.githubusercontent.com/97111500/164915089-6d0fc1f1-8156-4583-b906-45cf65036b33.png" width="300px" heigth="150px">
-<br/>
-<p>Los Mockup's fueron elaborados en Figma, para consultarlos por favor dirijase a <h1>https:XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</h1></P>
-<br/>
-<img src="https://user-images.githubusercontent.com/97111500/164915595-6db007a9-4e5e-4b95-a28e-a1c974a799cf.jpg" width="300px" heigth="150px"> 
-<br/>
-
-<h3>Para la instalacion local de esta app se dede contar con:</h3><br/>
-<ul>
-<li>Php, descargar desde: https://www.php.net/downloads.php</li>
-<li>MySQL, descargar desde: https://dev.mysql.com/downloads/mysql/</li>
-<li>Laravel, descargar desde: https://laravel.com/docs/9.x/installation</li>
-<li>Composer, descargar desde: https://getcomposer.org/download</li>
-<li>Tailwind, instalar con: npm install -D tailwindcss postcss autoprefixer </li>
-<li>daisy UI, instalar con: npm install daisyui</li>    
-</ul> 
-
-<h3>Luego de clonar el repositorio no olvide ejecutar:</h3><br/>
-<ul>
-<li>composer install</li>
-<li>npm install</li>
-<li>npm run dev</li>
-<li>cp .env.example .env</li>
-<li>php artisan key:generate</li>
-<li>php artisan migrate</li>    
-</ul> 
-<br/>
-<p>En la investigacion, las principales consultas se efectuaron en:</br>
-<ul>
-<li>https://youtu.be/MFh0Fd7BsjE</li>
-<li>https://github.com/codecourse/posty-traversy-media</li>
-<li>developer.mozilla.org</li>
-<li>stackoverflow.com</li>
-</ul> 
-</p>
-<br/>
-<h3>Le sugerimos consultar la documentacion disponible sobre laravel:</h3><br/>
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
@@ -72,58 +9,30 @@ foto
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
+### Chiwi Academi 👋 💻 🤓 🖥
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+<p>
+ Diseñar y desarrollar una aplicación para la gestión de eventos o meetups on-line.
+</p>
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+<p><em> EducaMas -> <a href="https://educamas.com.co/"> EducaMas - Programate</a>, Regional. 💻 </br>
+</em></p>
 
-## Learning Laravel
+<h2> 👨🏻•💻  TEAM 👨🏻•💻 </h2>
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+- 🎓 &nbsp; Sara Salas Perez.
+- 🎓 &nbsp; Yuri Andrea.
+- 🎓 &nbsp; Jose Jiménez.
+- 🎓 &nbsp; Leandro Gutierrez.
+- 🎓 &nbsp; Juan David Quimbayo Nuñez.
 
-## Laravel Sponsors
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+<h3>🛠 Stack 🛠 </h3>
 
-### Premium Partners
+- 🌐 &nbsp; HTML5 | CSS3 | Tailwind |
+- 🛢 &nbsp; Mongo BD | 
+- 💻 &nbsp; Laravel PHP |
+- 🖥 &nbsp; Deploying | 
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
