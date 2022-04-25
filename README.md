@@ -19,6 +19,9 @@
 <p><em> EducaMas -> <a href="https://educamas.com.co/"> EducaMas - Programate</a>, Regional. 💻 </br>
 </em></p>
 
+<p><em> Chiwi Academy -> <a href="https://appchiwi.herokuapp.com/"> Deploying 💻 </br>
+</em></p>
+
 <h2> 👨🏻•💻  TEAM 👨🏻•💻 </h2>
 
 
