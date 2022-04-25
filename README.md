@@ -35,7 +35,6 @@
 <h3>🛠 Stack 🛠 </h3>
 
 - 🌐 &nbsp; HTML5 | CSS3 | Tailwind |
-- 🛢 &nbsp; Mongo BD | 
 - 💻 &nbsp; Laravel PHP |
 - 🖥 &nbsp; Deploying | Heroku
 
