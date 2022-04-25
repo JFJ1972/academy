@@ -39,3 +39,11 @@
 - 💻 &nbsp; Laravel PHP |
 - 🖥 &nbsp; Deploying | Heroku
 
+
+<h2>💻 IMG 💻</h2>
+
+<img src="https://github.com/JFJ1972/academy/blob/main/imagen%201.png" />
+
+---
+<img src="https://github.com/JFJ1972/academy/blob/main/imagen%202.png" />
+
